@@ -1,5 +1,5 @@
 export default class Request {
-  static url = 'https://djreactive-heroku.herokuapp.com:7070';
+  static url = 'https://djreactive-heroku.herokuapp.com';
 
   static xhr = null;
 
