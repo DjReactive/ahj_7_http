@@ -1,0 +1,33 @@
+.modal {
+  display: none;
+  position: absolute;
+  width: 400px;
+  background: #ddd;
+  border: 1px solid #999;
+  border-radius: 10px;
+  box-shadow: 12px 12px 2px 1px rgba(0,0,0,0.7);
+  top: 35px;
+}
+.modal__title {
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+  text-transform: uppercase;
+  border-bottom: 1px solid #aaa;
+}
+.modal form {
+  box-sizing: border-box;
+  margin: 15px;
+  display: flex;
+  flex-direction: column;
+}
+.modal form label {
+  padding: 5px 0;
+}
+.modal form .buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
